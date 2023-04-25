@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./styles.module.css";
-const index = ({ title, movies }) => {
+const MovieSection = ({ title, movies }) => {
   return (
     <div className={styles.moviesSection}>
     <h3 className={styles.title}>{title}</h3>
@@ -25,4 +25,4 @@ const index = ({ title, movies }) => {
   )
 }
 
-export default index
+export default MovieSection
